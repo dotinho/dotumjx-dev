@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQIFB5OHx+Mueni8ltTzVo7jANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQxNTFhNDdkNS1hMDI5LTQ5MzAtYTM2Zi0wZWE3M2NiYTJmYzIw
+    HhcNMTkwNjI3MjMyNDM5WhcNMjQwNjI2MDAyNDM5WjAvMS0wKwYDVQQDEyQxNTFh
+    NDdkNS1hMDI5LTQ5MzAtYTM2Zi0wZWE3M2NiYTJmYzIwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQC0SNIKP3+T09bNRlibBB3N9dvyqeZGdr5YMTBLyazg
+    cmWN/8YhyF4bqb72lZ0DOJ8zTzhjQtrDKofcBBtkDaRAmtBmP9GfjuusCUGP8Oqj
+    2WkPdIMXeWy3TnjmZsN5lEJDnosqoiFBoQ2PP+7s6G/por8PBxMpH3PXplMEU8iG
+    ESgf2wEN90CsJ6mdxRWVogG2XUM9lI7Pq9yXX142g2Mzw9Y9TEaAvbMP1Mjw99Do
+    x4oxw+ZiRlFVJPkxjldSr67JJXBqsmCJl7RG4V7fjvqZyiPYo+Bzzg0LmCfDWWS/
+    Zu0s77cH9t7Nj+jQKx8ORhzEZKzCW+ro8yqtWWgND/ylAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCa
+    E88iY7cZX2TqHLJ/ASgwz3ZyLq9zOKSPJE32lVVvnBnxsB6H+GrhQ8x1sv9D0t5H
+    ULfKHiNwwExj4bKEZN3KRSfVoKMEX81aXxxItfLiQ3nvH5UujFYFcdTKnV1hpypU
+    7PTGAKYDsi2XbQ0UhyjldLcglMJ5f90CWF9qbV9tGSN9VyqsHbCgk5Z6iNjoMQ+Z
+    Heli5rtN8MbG3W8E0ZsLVSosZYQxhypJmX0nhM0BZ/9899ybKWCUrwHui0gv0UyH
+    XIw4BF49pwB+x+KCK5wOd5UO2EfBHJdu5xmXWFzdhWJo5Xs3iLnchc21r9mxZHbS
+    XeLNmL4PbeI3u/EjE/Z+
+    -----END CERTIFICATE-----
+  clusterName: dotumjx
+  jx-install-version: 2.0.317
+  kubeProvider: gke
+  projectID: kubernetes-237423
+  region: ""
+  secretsLocation: vault
+  server: https://104.199.124.25
+  systemVaultName: jx-vault-dotumjx
+  zone: us-west1-a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
